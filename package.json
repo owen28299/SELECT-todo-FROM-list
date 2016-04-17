@@ -1,0 +1,23 @@
+{
+  "name": "SELECT-todo-FROM-list",
+  "version": "1.0.0",
+  "description": "### SQL CRUD Exercise in PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon -e sql --exec psql -f todo_app.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen28299/SELECT-todo-FROM-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owen28299/SELECT-todo-FROM-list/issues"
+  },
+  "homepage": "https://github.com/owen28299/SELECT-todo-FROM-list#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
